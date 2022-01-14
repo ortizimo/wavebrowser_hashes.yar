@@ -1,0 +1,48 @@
+import "hash"
+
+rule hash_rule {
+
+	meta:
+		author = "Saulo 'Sal' Ortiz, Sr. Cyber Forensics Analyst"
+		description = "WaveBrowser MD5 hashes"
+		date = "2021-12-11"
+		
+	condition:
+		hash.md5(0, filesize) == " 22f39b13e3cf7a296f62bf720611beb6 " or
+		hash.md5(0, filesize) == " F66226BF247B9190618DB3727ABADCCF " or
+		hash.md5(0, filesize) == " 239AD8C234FCD4BEBC13CB43B05D951D " or
+		hash.md5(0, filesize) == " 8EEB182E0E2141F234BCF0C82A4F037D " or
+		hash.md5(0, filesize) == " 185B0D17AB2E58DE9ABED02A98DF162A " or
+		hash.md5(0, filesize) == " 7C3BD36FB667EFB1C4F9F673C1EEA740 " or
+		hash.md5(0, filesize) == " 135D9DFD222EBA746D056746E708CF16 " or
+		hash.md5(0, filesize) == " 503977A9729776191FE8137AD65EF8A5 " or
+		hash.md5(0, filesize) == " DF0925B3A6032130BA85FAFD08E80BE2 " or
+		hash.md5(0, filesize) == " 11CFA6EC9DE29B2F2D4E4805EFBE3E7E " or
+		hash.md5(0, filesize) == " AFEEDF40B122E2C04BD3A911BC02771A " or
+		hash.md5(0, filesize) == " 0319EB458567D0EE590A0533F0F8DE1E " or
+		hash.md5(0, filesize) == " 9462090279EC79974330FA602731EFA6 " or
+		hash.md5(0, filesize) == " E442FDDCA92AC31BC337B718E9FFAE4B " or
+		hash.md5(0, filesize) == " 09D5AC643C578CA92A1DD7B7EE31D207 " or
+		hash.md5(0, filesize) == " 1D2881D282BD26FF9AE5F9F985771872 " or
+		hash.md5(0, filesize) == " 5D05A1F3AF61FC7A701F6C36945ED50F " or
+		hash.md5(0, filesize) == " 5CEDC4B43464C555856A46ED43EA5C22 " or
+		hash.md5(0, filesize) == " 6CCD43E47B1EB981C545598CBA82DCEE " or
+		hash.md5(0, filesize) == " C36392CBE66485C33201C0A1B855E3F0 " or
+		hash.md5(0, filesize) == " 0E7D8EED6263651B2113E8FEE88AB407 " or
+		hash.md5(0, filesize) == " 4C70CB398D16349C06010C0669FBA149 " or
+		hash.md5(0, filesize) == " 9E09818F5844A8CEC16512A6D61154D8 " or
+		hash.md5(0, filesize) == " FA90067D9F0CD267051D24E99A07A83E " or
+		hash.md5(0, filesize) == " D94BA48B6078464E540FD2CA551001AB " or
+		hash.md5(0, filesize) == " 697D3F3EB80375EE262026D646561A2A " or
+		hash.md5(0, filesize) == " D26AD6D225E376CB20B961E88F06CF5B " or
+		hash.md5(0, filesize) == " CBC0EB0D11CC8D99382EEF397D21FDC8 " or
+		hash.md5(0, filesize) == " 1C7B11F88CE42B1867A0C44851E68637 " or
+		hash.md5(0, filesize) == " 49FABC04D46D6B66D1A37353DD4607E6 " or
+		hash.md5(0, filesize) == " 1152E84337D5D4C56C66A692676B7422 " or
+		hash.md5(0, filesize) == " 5E64EBC6991743DAAEA9166708E119F8 " or
+		hash.md5(0, filesize) == " 92C14F7335C9F7AB8AF969D9407FD36D " or
+		hash.md5(0, filesize) == " 6B71E8BD3ECFF4A5A51A6A0352B21EF1 " or
+		hash.md5(0, filesize) == " D7D867D4DE55789D0C3A8CF5860FD1B7 " or
+		hash.md5(0, filesize) == " E8FB7F7F0E4071565E5F501A7FCCC5E3 " or
+		hash.md5(0, filesize) == " A5E345518E6817F72C9B409915741689 "
+}
