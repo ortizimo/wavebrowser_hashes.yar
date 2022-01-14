@@ -5,6 +5,7 @@ rule hash_rule {
 	meta:
 		author = "Saulo 'Sal' Ortiz, Sr. Cyber Forensics Analyst"
 		description = "WaveBrowser MD5 hashes"
+		reference = "https://github.com/ortizimo/wavebrowser_hashes.yar/blob/main/code"
 		date = "2021-12-11"
 		
 	condition:
