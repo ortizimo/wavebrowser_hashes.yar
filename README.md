@@ -1,1 +1,1 @@
-# wavebrowser hashes
+# wavebrowser_hashes.yar
